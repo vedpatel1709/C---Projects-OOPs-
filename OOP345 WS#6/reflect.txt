@@ -1,0 +1,15 @@
+/*
+Name: Ved Rajendrakumar Patel
+Student Id: 149409203
+email: vrpatel33@myseneca.ca
+Section: NDD
+Date: 07/08/2022
+*/
+
+/*I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.*/
+
+My main learnings from this workshop were about STL Containers. As described in the description, move operators can be used to move dynamically allocated objects into containers. In addition, polymorphic objects, including vector containers from STL, can be managed using a standard library.  
+When I iterated on the objects in a container, I got values from them using range-based iteration. For example, I used “path. begin()” and “path. end()” to iterate for a loop. In "begin()", the path will be represented by a starting array, and in "end()," the path will be represented by its ending array.
+Whenever a copy function is called, the aggregator replicates a pointer to the component objects, so they can exist independently of each other. As soon as the moving feature of the aggregate is updated, the pointer is reassigned to the memory.
+Additionally, I used Try, Catch, and Throw statements to report and handle exceptions. The instructions on GitHub code were very helpful to me.
+Overall, This workshop was fun and full of learning for me.

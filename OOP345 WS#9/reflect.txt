@@ -1,0 +1,17 @@
+/*
+Name: Ved Rajendrakumar Patel
+Student Id: 149409203
+email: vrpatel33@myseneca.ca
+Section: NDD
+Date: 07/25/2022
+*/
+
+/*I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.*/
+
+I found this workshop to be really easy and small in comparison to others I've attended in the past.
+We were supposed to create two functions based on the process_data module provided on GitHub.
+I have learned many valuable concepts from this workshop, despite it being so small.
+The most important part of this course was learning how to write numbers into a file in binary mode and read numbers out of a file in binary mode.
+In addition, I learned the difference between multi-tasking and multi-threading and how we can bind functions to their arguments.  There is a difference between a process and a thread which can be explained by the distinction between them.
+In this function, placeholders help to manipulate the position and number of values used by the function and modify the function according to the desired result.
+As a final point, I learned how to partition data on a multithreaded system.

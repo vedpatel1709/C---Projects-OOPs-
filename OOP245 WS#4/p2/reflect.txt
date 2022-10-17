@@ -1,0 +1,12 @@
+/*
+Name= Patel Ved Rajendrakumar
+Student_ID=149409203
+Section=OOP244 NDD
+Workshop 4 part 2
+Date: 10th october,2021
+*/
+
+This workshop was really interesting to me. I learned many new things in this workshop which includes constructors and destructors. In constructors, I learned what is default constructor and what is parameterized constructors. I found the 2nd part really tricky but in 1st part instructions were good enough to guide me. In parameterized constructors, the parameters are used to help an object to initialize when it's constructed and parameters are used to initialize the object when constructor's body is defined. Constructors without any parameters is called default constructor. 
+Moreover, destructor is opposite of constructor. A destructor is invoked automatically right before the object goes out of scope. Destructor is used in order to prevent memory leaks. 
+Furthermore, I learned to use “This” keyword. “This” keyword is used to refer the current class instance.  This keyboard is used in the lab part of the workshop which points to the object which is currently in use inside the memory.
+Overall, this workshop was great learning for me.

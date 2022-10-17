@@ -1,0 +1,19 @@
+/*
+Name: Ved Rajendrakumar Patel
+Student Id: 149409203
+email: vrpatel33@myseneca.ca
+Section: NDD
+Date: 06/07/2022
+*/
+
+/*I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.*/
+
+I learned how to construct composition and aggregation links between classes at a recent workshop. And, most importantly, I created a class to manage a dynamically constructed array of object pointers.
+The least linked relationship between classes is association. Forwarding member functions in the associated type are not required for member functions in an association. 
+In this workshop, we can use the example of a toy and a child to illustrate the relationship between the toy and the child. The toy can be used by the child to play with, and the toy is reserved for a specific age group of children. 
+That both exist in their own right and can be created or removed independently.
+Changes to the component class have no effect on the composer class. In terms of design, the composition is more flexible (less coupled) than inheritance.
+In terms of design, aggregation is more flexible (less coupled) than composition.
+Aggregation is a C++ mechanism that allows one class to declare another as a reference to any entity. It's just another way to reuse the class. 
+Aggregation differs from composition in that aggregation suggests a relationship in which the child can live independently of the parent. The aggregator simply replicates the pointer to the component objects in copy functions, allowing them to exist independently. 
+After that, the aggregator reassigns the pointer to the memory in the aggregate's moving feature.

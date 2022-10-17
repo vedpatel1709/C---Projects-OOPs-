@@ -1,0 +1,15 @@
+/*
+Name: Ved Rajendrakumar Patel
+Student Id: 149409203
+email: vrpatel33@myseneca.ca
+Section: NDD
+Date: 07/20/2022
+*/
+
+/*I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.*/
+
+My learnings from this workshop included many new concepts in smart pointers and raw pointers. Even though there was very little implementation in those topics, knowing them and learning the syntax was extremely important. 
+As part of this workshop, I added the rangeValidator() function to the EmpProfile module, as well as writeRaw and writeSmart functions in WritingRecord module, as well as overloaded += operator in GeneratingList() module. I also used raw pointers and smart pointers in all the other required modules. 
+In the generatingList module, a list of records is saved in a text file, and they can be controlled through output by the user.
+As well as overloading the += operator, I also used Luhn's algorithm to verify the validity of the SIN. In this case, it gets the reference to const std::string that shows the SIN, checks it, and returns true only if the SIN is valid. Raw and smart pointers are both present in the WritingRecord module, where the raw func removes active employees when the parameters name and sin are received.
+I added the += operator to the writingRecord module using a smart pointer in part two of this workshop, as well as finished the writeSmart() function in the writingRecord module. My overall learning from this workshop was how to move objects using a smart pointer.

@@ -1,0 +1,11 @@
+/ Name: Patel Ved Rajendrakumar
+// Seneca Student ID: 149409203
+// Seneca email: vrpatel33@myseneca.ca
+// Date of completion: 07/27/2022
+//
+// I confirm that I am the only author of this file
+//   and the content was created entirely by me.
+
+The course provided me with a lot of new concepts and C++ knowledge. During this project, I learned how to combine code from different concepts such as "File stream objects", "Algorithms", and "Containers and Iterators".  Multi-threading, multiple inheritance, and smart pointers were not covered in this project because they were covered in the first half of the semester. 
+I found the course notes and workshops very helpful while learning C++ in this course. The coding channel of "Code With Harry" was outstanding for learning C++ apart from the course. He made some videos that helped me a lot when I was learning about file stream objects.
+Your assistance in learning C++ and programming has been greatly appreciated.  

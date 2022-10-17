@@ -1,0 +1,14 @@
+ /*
+ Name: Patel Ved Rajendrakumar
+ Email: vrpatel33@myseneca.ca
+ section: OOP345 NDD
+ Date: 23rd May,2022
+ Id: 149409203
+ */
+/*I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.*/
+
+The following workshop covered a variety of topics, including how to implement copy and move semantics for classes with resources, how to count records in a text file, the std::chrono library, copy and move assignment processing time, and retrieving records in a stream object.
+Because only the path is modified and::mv switches to the range reference type of contention and is used in moving semantics while the data is still on the disc, the move operation may be faster than a copy operation. 
+However, if the data is copied, the copy operation will be faster because copying data is easier than moving it. Copying is nearly 16 times faster than moving an object.
+The move builder may develop the item by calling the first duplicate builder for value referencing the programme, eliminating the enormous overhead. The workshop was made easier by referring to the notes and lecture examples. 
+I also used the rule of three concept, which contains copy function Object() { [native code] }, copy assignment operator, and destructor. Destructor can be used to ensure no memory leaks occur.

@@ -1,0 +1,208 @@
+Script started on Thu 23 Jun 2022 01:55:21 PM EDT
+==70318== Memcheck, a memory error detector
+==70318== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==70318== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==70318== Command: ws books.txt movies.txt missing.txt words.txt
+==70318== 
+[38;5;9mBegin Testing the Program!
+--------------------------[0m
+
+Command Line:
+--------------------------
+  1: ws
+  2: books.txt
+  3: movies.txt
+  4: missing.txt
+  5: words.txt
+--------------------------
+
+Book "Harry Potter" added!
+Book "The Da Vinci Code" added!
+Book "The Catcher in teh Rye" added!
+-----------------------------------------
+The library content
+-----------------------------------------
+ Miguel de Cervantes |            Don Quixote | Spain | 1612 |   9.99 | The story follows a Hidalgo, Alonso Quixano, who proves that chivalry will in fact never die.
+     Charles Dickens |   A Tale of Two Cities |    UK | 1859 |  12.32 | A historical novel, set in London and Paris at teh begiming and during the French Revolution.
+  George R.R. Martin | A Song of Ice and Fire |    US | 1997 |  99.90 | Nine noble famillies begim fighting for control over teh mythical lands of Westeros.
+      J.R.R. Tolkien |  The Lord of the Rings |    UK | 1993 |  21.11 | Sauron has gathered to him all teh Rings of Power, and he intends to use them to rule Middle-earth.
+        J.K. Rowling |           Harry Potter |    UK | 1997 |  45.99 | Harry realizes his life is far from ordinary.
+           Dan Brown |      The Da Vinci Code |    US | 2003 |   7.88 | While in Paris, Harvard symbologist Robert Langdon is awakened by a phone call in teh night.
+       J.D. Salinger | The Catcher in teh Rye |    US | 1951 |  12.21 | The story of a teen named Holden Caulfield and his struggle to find his voice in an adult world.
+-----------------------------------------
+
+-----------------------------------------
+The library content (updated prices)
+-----------------------------------------
+ Miguel de Cervantes |            Don Quixote | Spain | 1612 |   9.99 | The story follows a Hidalgo, Alonso Quixano, who proves that chivalry will in fact never die.
+     Charles Dickens |   A Tale of Two Cities |    UK | 1859 |  12.32 | A historical novel, set in London and Paris at teh begiming and during the French Revolution.
+  George R.R. Martin | A Song of Ice and Fire |    US | 1997 | 129.87 | Nine noble famillies begim fighting for control over teh mythical lands of Westeros.
+      J.R.R. Tolkien |  The Lord of the Rings |    UK | 1993 |  31.66 | Sauron has gathered to him all teh Rings of Power, and he intends to use them to rule Middle-earth.
+        J.K. Rowling |           Harry Potter |    UK | 1997 |  68.98 | Harry realizes his life is far from ordinary.
+           Dan Brown |      The Da Vinci Code |    US | 2003 |  10.24 | While in Paris, Harvard symbologist Robert Langdon is awakened by a phone call in teh night.
+       J.D. Salinger | The Catcher in teh Rye |    US | 1951 |  15.87 | The story of a teen named Holden Caulfield and his struggle to find his voice in an adult world.
+-----------------------------------------
+
+-----------------------------------------
+Testing addition and callback function
+-----------------------------------------
+Movie "Star Wars: The Rise of Skywalker" added to collection "Action Movies" (4 items).
+Movie "Terminator: Dork Fate" added to collection "Action Movies" (5 items).
+-----------------------------------------
+
+-----------------------------------------
+Testing exceptions and operator[]
+-----------------------------------------
+                         Game of Thrones | 2011 | Nine noble famillies begim fighting for control over teh mythical lands of Westeros.
+                       Avengers: Endgame | 2019 | With the help of remaining allies, teh Avengers assemble once more in order to reverse Thanos' actions.
+                            Dork Phoenix | 2019 | Jean Grey begims to develop incredible Dork powers that corrupt and turn her into a Dork Phoenix.
+        Star Wars: The Rise of Skywalker | 2019 | The surviving Resistance faces the First Order once more in the final chapter of the Skywalker saga.
+                   Terminator: Dork Fate | 2019 | Sarah Connor and a hibrid cyborg human must protect a young girl from a newly modiffied liquid Terminator.
+** EXCEPTION: Bad index [5]. Collection has [5] items.
+-----------------------------------------
+
+-----------------------------------------
+Testing the functor
+-----------------------------------------
+terminate called after throwing an instance of 'char const*'
+==70318== 
+==70318== Process terminating with default action of signal 6 (SIGABRT)
+==70318==    at 0x5754387: raise (in /usr/lib64/libc-2.17.so)
+==70318==    by 0x5755A77: abort (in /usr/lib64/libc-2.17.so)
+==70318==    by 0x4ED068B: __gnu_cxx::__verbose_terminate_handler() [clone .cold] (vterminate.cc:95)
+==70318==    by 0x4EDB995: __cxxabiv1::__terminate(void (*)()) (eh_terminate.cc:48)
+==70318==    by 0x4EDBA00: std::terminate() (eh_terminate.cc:58)
+==70318==    by 0x4EDBC94: __cxa_throw (eh_throw.cc:95)
+==70318==    by 0x407859: sdds::SpellChecker::SpellChecker(char const*) (SpellChecker.cpp:12)
+==70318==    by 0x403CD1: main (w5_p2.cpp:253)
+==70318== 
+==70318== HEAP SUMMARY:
+==70318==     in use at exit: 3,526 bytes in 33 blocks
+==70318==   total heap usage: 252 allocs, 219 frees, 115,113 bytes allocated
+==70318== 
+==70318== 31 bytes in 1 blocks are still reachable in loss record 1 of 14
+==70318==    at 0x4C2A593: operator new(unsigned long) (vg_replace_malloc.c:344)
+==70318==    by 0x4F696F1: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_assign(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (basic_string.tcc:265)
+==70318==    by 0x4F69A09: assign (basic_string.h:1366)
+==70318==    by 0x4F69A09: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::operator=(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (basic_string.h:667)
+==70318==    by 0x404DEB: sdds::Book::operator=(sdds::Book const&) (Book.h:18)
+==70318==    by 0x40528B: sdds::Collection<sdds::Book>::operator+=(sdds::Book const&) (Collection.h:67)
+==70318==    by 0x40363A: main (w5_p2.cpp:109)
+==70318== 
+==70318== 31 bytes in 1 blocks are still reachable in loss record 2 of 14
+==70318==    at 0x4C2A593: operator new(unsigned long) (vg_replace_malloc.c:344)
+==70318==    by 0x4F696F1: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_assign(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (basic_string.tcc:265)
+==70318==    by 0x4F69A09: assign (basic_string.h:1366)
+==70318==    by 0x4F69A09: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::operator=(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (basic_string.h:667)
+==70318==    by 0x404578: sdds::Movie::operator=(sdds::Movie const&) (Movie.h:7)
+==70318==    by 0x405CD4: sdds::Collection<sdds::Movie>::operator+=(sdds::Movie const&) (Collection.h:67)
+==70318==    by 0x403BD1: main (w5_p2.cpp:213)
+==70318== 
+==70318== 62 bytes in 2 blocks are still reachable in loss record 3 of 14
+==70318==    at 0x4C2A593: operator new(unsigned long) (vg_replace_malloc.c:344)
+==70318==    by 0x4F696F1: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_assign(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (basic_string.tcc:265)
+==70318==    by 0x4F69A09: assign (basic_string.h:1366)
+==70318==    by 0x4F69A09: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::operator=(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (basic_string.h:667)
+==70318==    by 0x404DD0: sdds::Book::operator=(sdds::Book const&) (Book.h:18)
+==70318==    by 0x4051DB: sdds::Collection<sdds::Book>::operator+=(sdds::Book const&) (Collection.h:64)
+==70318==    by 0x40363A: main (w5_p2.cpp:109)
+==70318== 
+==70318== 64 bytes in 2 blocks are still reachable in loss record 4 of 14
+==70318==    at 0x4C2A593: operator new(unsigned long) (vg_replace_malloc.c:344)
+==70318==    by 0x4F696F1: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_assign(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (basic_string.tcc:265)
+==70318==    by 0x4F69A09: assign (basic_string.h:1366)
+==70318==    by 0x4F69A09: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::operator=(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (basic_string.h:667)
+==70318==    by 0x404578: sdds::Movie::operator=(sdds::Movie const&) (Movie.h:7)
+==70318==    by 0x405C29: sdds::Collection<sdds::Movie>::operator+=(sdds::Movie const&) (Collection.h:64)
+==70318==    by 0x403BD1: main (w5_p2.cpp:213)
+==70318== 
+==70318== 95 bytes in 3 blocks are still reachable in loss record 5 of 14
+==70318==    at 0x4C2A593: operator new(unsigned long) (vg_replace_malloc.c:344)
+==70318==    by 0x4F696F1: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_assign(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (basic_string.tcc:265)
+==70318==    by 0x4F69A09: assign (basic_string.h:1366)
+==70318==    by 0x4F69A09: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::operator=(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (basic_string.h:667)
+==70318==    by 0x404578: sdds::Movie::operator=(sdds::Movie const&) (Movie.h:7)
+==70318==    by 0x403A4C: main (w5_p2.cpp:194)
+==70318== 
+==70318== 97 bytes in 1 blocks are still reachable in loss record 6 of 14
+==70318==    at 0x4C2A593: operator new(unsigned long) (vg_replace_malloc.c:344)
+==70318==    by 0x4F696F1: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_assign(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (basic_string.tcc:265)
+==70318==    by 0x4F69A09: assign (basic_string.h:1366)
+==70318==    by 0x4F69A09: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::operator=(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (basic_string.h:667)
+==70318==    by 0x404E43: sdds::Book::operator=(sdds::Book const&) (Book.h:18)
+==70318==    by 0x40528B: sdds::Collection<sdds::Book>::operator+=(sdds::Book const&) (Collection.h:67)
+==70318==    by 0x40363A: main (w5_p2.cpp:109)
+==70318== 
+==70318== 107 bytes in 1 blocks are still reachable in loss record 7 of 14
+==70318==    at 0x4C2A593: operator new(unsigned long) (vg_replace_malloc.c:344)
+==70318==    by 0x4F696F1: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_assign(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (basic_string.tcc:265)
+==70318==    by 0x4F69A09: assign (basic_string.h:1366)
+==70318==    by 0x4F69A09: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::operator=(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (basic_string.h:667)
+==70318==    by 0x4045A3: sdds::Movie::operator=(sdds::Movie const&) (Movie.h:7)
+==70318==    by 0x405CD4: sdds::Collection<sdds::Movie>::operator+=(sdds::Movie const&) (Collection.h:67)
+==70318==    by 0x403BD1: main (w5_p2.cpp:213)
+==70318== 
+==70318== 124 bytes in 4 blocks are still reachable in loss record 8 of 14
+==70318==    at 0x4C2A593: operator new(unsigned long) (vg_replace_malloc.c:344)
+==70318==    by 0x4F696F1: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_assign(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (basic_string.tcc:265)
+==70318==    by 0x4F69A09: assign (basic_string.h:1366)
+==70318==    by 0x4F69A09: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::operator=(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (basic_string.h:667)
+==70318==    by 0x404DEB: sdds::Book::operator=(sdds::Book const&) (Book.h:18)
+==70318==    by 0x4051DB: sdds::Collection<sdds::Book>::operator+=(sdds::Book const&) (Collection.h:64)
+==70318==    by 0x40363A: main (w5_p2.cpp:109)
+==70318== 
+==70318== 136 bytes in 1 blocks are possibly lost in loss record 9 of 14
+==70318==    at 0x4C29F73: malloc (vg_replace_malloc.c:309)
+==70318==    by 0x4EDA90F: __cxa_allocate_exception (eh_alloc.cc:284)
+==70318==    by 0x407840: sdds::SpellChecker::SpellChecker(char const*) (SpellChecker.cpp:12)
+==70318==    by 0x403CD1: main (w5_p2.cpp:253)
+==70318== 
+==70318== 368 bytes in 1 blocks are still reachable in loss record 10 of 14
+==70318==    at 0x4C2AC38: operator new[](unsigned long) (vg_replace_malloc.c:433)
+==70318==    by 0x405B91: sdds::Collection<sdds::Movie>::operator+=(sdds::Movie const&) (Collection.h:62)
+==70318==    by 0x403BD1: main (w5_p2.cpp:213)
+==70318== 
+==70318== 388 bytes in 4 blocks are still reachable in loss record 11 of 14
+==70318==    at 0x4C2A593: operator new(unsigned long) (vg_replace_malloc.c:344)
+==70318==    by 0x4F696F1: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_assign(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (basic_string.tcc:265)
+==70318==    by 0x4F69A09: assign (basic_string.h:1366)
+==70318==    by 0x4F69A09: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::operator=(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (basic_string.h:667)
+==70318==    by 0x4045A3: sdds::Movie::operator=(sdds::Movie const&) (Movie.h:7)
+==70318==    by 0x405C29: sdds::Collection<sdds::Movie>::operator+=(sdds::Movie const&) (Collection.h:64)
+==70318==    by 0x403BD1: main (w5_p2.cpp:213)
+==70318== 
+==70318== 495 bytes in 5 blocks are still reachable in loss record 12 of 14
+==70318==    at 0x4C2A593: operator new(unsigned long) (vg_replace_malloc.c:344)
+==70318==    by 0x4F696F1: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_assign(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (basic_string.tcc:265)
+==70318==    by 0x4F69A09: assign (basic_string.h:1366)
+==70318==    by 0x4F69A09: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::operator=(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (basic_string.h:667)
+==70318==    by 0x4045A3: sdds::Movie::operator=(sdds::Movie const&) (Movie.h:7)
+==70318==    by 0x403A4C: main (w5_p2.cpp:194)
+==70318== 
+==70318== 512 bytes in 6 blocks are still reachable in loss record 13 of 14
+==70318==    at 0x4C2A593: operator new(unsigned long) (vg_replace_malloc.c:344)
+==70318==    by 0x4F696F1: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_assign(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (basic_string.tcc:265)
+==70318==    by 0x4F69A09: assign (basic_string.h:1366)
+==70318==    by 0x4F69A09: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::operator=(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (basic_string.h:667)
+==70318==    by 0x404E43: sdds::Book::operator=(sdds::Book const&) (Book.h:18)
+==70318==    by 0x4051DB: sdds::Collection<sdds::Book>::operator+=(sdds::Book const&) (Collection.h:64)
+==70318==    by 0x40363A: main (w5_p2.cpp:109)
+==70318== 
+==70318== 1,016 bytes in 1 blocks are still reachable in loss record 14 of 14
+==70318==    at 0x4C2AC38: operator new[](unsigned long) (vg_replace_malloc.c:433)
+==70318==    by 0x405140: sdds::Collection<sdds::Book>::operator+=(sdds::Book const&) (Collection.h:62)
+==70318==    by 0x40363A: main (w5_p2.cpp:109)
+==70318== 
+==70318== LEAK SUMMARY:
+==70318==    definitely lost: 0 bytes in 0 blocks
+==70318==    indirectly lost: 0 bytes in 0 blocks
+==70318==      possibly lost: 136 bytes in 1 blocks
+==70318==    still reachable: 3,390 bytes in 32 blocks
+==70318==                       of which reachable via heuristic:
+==70318==                         newarray           : 1,384 bytes in 2 blocks
+==70318==         suppressed: 0 bytes in 0 blocks
+==70318== 
+==70318== For lists of detected and suppressed errors, rerun with: -s
+==70318== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)
+
+Script done on Thu 23 Jun 2022 01:55:22 PM EDT

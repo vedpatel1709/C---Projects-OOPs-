@@ -1,0 +1,13 @@
+// Name: Patel Ved Rajendrakumar
+// Email: vrpatel33@myseneca.ca
+// section: OOP345 NDD
+// Date: 19th may, 2022
+// Reflect.txt
+
+/*I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.*/
+
+The workshop covered a wide range of C++ subjects, and the professor went over many of them in detail in the notes and online sessions.
+Externally linked symbols will be accessible throughout your application, while internally linked symbols will only be accessible within one translation unit.
+I declared "g_taxrate" and "g_dailydiscount" as external linkages in this workshop. Because it may be accessible from the main function when a new day of orders begins, and we declared it previously in the header file, but the definition is in the.cpp file. In the.cpp module, I also declared Counter no as an internal linkage inside namespace.
+A static variable is a variable, which means it has the same lifespan as the rest of the code. To print order data with a number, I utilised the static variable Counter no. I utilised it such that whenever the display function is invoked, it uses the previously used Counter no and increments it by one.
+I used some string-based shortcuts while updating to part 2. For instance, I used the string.getline() function to take input values up to "," ignore "," and save the data in a variable.

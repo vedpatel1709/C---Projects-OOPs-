@@ -1,0 +1,16 @@
+/*
+Name: Ved Rajendrakumar Patel
+Student Id: 149409203
+email: vrpatel33@myseneca.ca
+Section: NDD
+Date: 07/12/2022
+*/
+
+/*I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.*/
+
+In this workshop, we discussed Standard Template Library Algorithms, from which I learned how to create an applicate that handles all the data and maintains it. 
+As a result of attending this workshop, I was able to learn about some interesting topics, including copying data and records to sequential containers from any file.
+The lambda expressions that I used to define operations on each value also worked well for me. CovidCollection is the only module that was used in this workshop, so our work was simple and straightforward.
+There is just one struct in this module that contains information such as a country, city, variety, year, number of cases, and number of deaths. For example, in getListForCountry(), it gets any country name and then gives us the covid list of that country. I liked "std::list*Covid> getListForVariant() const" because it gets any country name and then gives us the covid list. 
+Once the variant is known, it gives us a covid list for that specific variant using getListforVariant(). My next step was to learn how to sort the data in ascending order using the sort() function. 
+I found the workshop to be simple and short, but it was worth learning and getting to know a few new topics.

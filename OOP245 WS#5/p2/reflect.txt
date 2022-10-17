@@ -1,0 +1,8 @@
+/* Name: Patel Ved Rajendrakumar
+   Section: OOP244 NAA
+   ID:149409203
+   Email: vrpatel33@myseneca.ca
+*/
+/*I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.*/
+
+I learned many new concepts of C++ in this workshop. In this workshop. This workshop was based on member operators and helper operators. Member operators are part of the class definition and they have direct access to class representation. While, helper operators are supporting operators of class and they do not have direct access to class representation. While working on the part 1, I got confused about unary and binary operators. Later, I understood unary operators have only one operand and prefix and postfix increment/decrement operators are part of it. Whilst, binary operators have two operands. I also got confused about why we need to use “std::” (namespace std) to use istream and ostream. Then, I found out the reason. The reason is because helper functions are always outside of the class. Finishing part of part 2 was easy for me because professor has provided the code of main function “DrawBus”. But overall I got many errors while working on this workshop but solving them cleared my concept about operators. 

@@ -1,0 +1,11 @@
+/*
+Name: Patel Ved Rajendrakumar
+Section: NAA
+ID: 149409203
+Email: vrpatel33@myseneca.ca
+*/
+
+In this workshop 8 and milestone 2, I was able to learn more about inheritance. I learned how to define pure virtual functions. I used "Virtual" sign to make function virtual. This virtual function will override the function of the base class from the derived class. To make any function pure virtual function, I will have to add some keywords in function.
+Moreover, from the milestone 2, I learned about Abstract classes. A class that has a pure virtual function is called "abstract base class". While, a concrete class is an ordinary class which has no purely virtual functions and hence can be instantiated.
+Furthermore, in this concept of inheritance it is important to implement destructor. In some situation where classes inherit from each other, the destructor should be made a virtual function because both the actual and the underlying objects must be destroyed.
+Overall, I found that workshop 8 quite difficult because we created around 4 classes and we inherited concrete classes into one abstract class.

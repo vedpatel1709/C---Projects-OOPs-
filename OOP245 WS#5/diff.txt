@@ -1,0 +1,14 @@
+In line number 59 of your output:
+The output should be:
+>j,24,40
+         ^
+But your output is: 
+>j,24,400
+        ^
+
+Unmatched character details:
+The character in column 9 is supposed to be:
+  [Empty Line] ASCII code(0)
+but you printed
+  [0] ASCII code(48)
+

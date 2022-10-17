@@ -1,0 +1,294 @@
+Script started on Mon 18 Oct 2021 09:50:05 AM EDT
+==45463== Memcheck, a memory error detector
+==45463== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==45463== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==45463== Command: ws
+==45463== 
+Constructor test --------------------------------------------------------------
+Row: Book Title                              | Author(s)                | Loc
+---------------------------------------------+--------------------------+------
+Invalid Book Record ................... | ........................ | .....
+Invalid Book Record ................... | ........................ | .....
+Invalid Book Record ................... | ........................ | .....
+Invalid Book Record ................... | ........................ | .....
+Invalid Book Record ................... | ........................ | .....
+Invalid Book Record ................... | ........................ | .....
+Huckleberry Finn                        | Mark Twain               | 7/132
+Invalid Book Record ................... | ........................ | .....
+End Constructor test ----------------------------------------------------------
+Read and Rule of three --------------------------------------------------------
+Row: Book Title                              | Author(s)                | Loc
+---------------------------------------------+--------------------------+------
+001: Harry Potter and the Chamber of Secrets | J. K. Rowling            | 2/056
+002: Harry Potter and the Prisoner of Azkaban| J. K. Rowling            | 4/126
+003: Harry Potter and the Goblet of Fire     | J. K. Rowling            | 4/107
+004: Invalid Book Record ................... | ........................ | .....
+005: Harry Potter and the Half-Blood Prince  | J. K. Rowling            | 4/061
+006: Harry Potter and the Deathly Hallows    | J. K. Rowling            | 6/080
+007: The Alchemist                           | Paulo Coelho             | 1/025
+008: The Catcher in the Rye                  | J. D. Salinger           | 3/121
+009: The Bridges of Madison County           | Robert James Waller      | 6/021
+010: Ben-Hur: A Tale of the Christ           | Lew Wallace              | 5/132
+011: You Can Heal Your Life                  | Louise Hay               | 1/016
+012: One Hundred Years of Solitude           | Gabriel Garca Mrquez     | 3/086
+013: Lolita                                  | Vladimir Nabokov         | 6/127
+014: Heidi                                   | Johanna Spyri            | 5/054
+015: Invalid Book Record ................... | ........................ | .....
+016: Anne of Green Gables                    | Lucy Maud Montgomery     | 6/010
+017: Black Beauty                            | Anna Sewell              | 2/073
+018: The Name of the Rose                    | Umberto Eco              | 5/123
+019: The Eagle Has Landed                    | Jack Higgins             | 6/129
+020: Watership Down                          | Richard Adams            | 5/122
+021: The Hite Report                         | Shere Hite               | 3/126
+022: Invalid Book Record ................... | ........................ | .....
+023: The Tale of Peter Rabbit                | Beatrix Potter           | 6/078
+024: Jonathan Livingston Seagull             | Richard Bach             | 6/102
+025: The Very Hungry Caterpillar             | Eric Carle               | 2/116
+026: A Message to Garcia                     | Elbert Hubbard           | 3/118
+027: To Kill a Mockingbird                   | Harper Lee               | 5/032
+028: Flowers in the Attic                    | V. C. Andrews            | 7/073
+029: Cosmos                                  | Carl Sagan               | 1/030
+030: Sophie's World                          | Jostein Gaarder          | 5/049
+031: Angels & Demons                         | Dan Brown                | 4/069
+032: Kane and Abel                           | Jeffrey Archer           | 4/121
+033: How the Steel Was Tempered              | Nikolai Ostrovsky        | 6/060
+034: War and Peace                           | Leo Tolstoy              | 3/064
+035: The Diary of Anne Frank                 | Anne Frank               | 4/099
+036: Your Erroneous Zones                    | Wayne Dyer               | 7/055
+037: The Thorn Birds                         | Colleen McCullough       | 2/020
+038: The Purpose Driven Life                 | Rick Warren              | 1/097
+039: The Kite Runner                         | Khaled Hosseini          | 6/007
+040: Valley of the Dolls                     | Jacqueline Susann        | 3/028
+041: The Great Gatsby                        | F. Scott Fitzgerald      | 1/033
+042: Gone with the Wind                      | Margaret Mitchell        | 2/005
+043: Rebecca                                 | Daphne du Maurier        | 6/064
+044: Nineteen Eighty-Four                    | George Orwell            | 1/020
+045: The Revolt of Mamie Stover              | William Bradford Huie    | 2/075
+046: The Girl with the Dragon Tattoo         | Stieg Larsson            | 2/044
+047: The Lost Symbol                         | Dan Brown                | 4/062
+048: The Hunger Games                        | Suzanne Collins          | 7/100
+049: James and the Giant Peach               | Roald Dahl               | 6/099
+050: Invalid Book Record ................... | ........................ | .....
+051: Who Moved My Cheese?                    | Spencer Johnson          | 6/048
+052: A Brief History of Time                 | Stephen Hawking          | 4/086
+053: Invalid Book Record ................... | ........................ | .....
+054: Lust for Life                           | Irving Stone             | 3/046
+055: The Wind in the Willows                 | Kenneth Grahame          | 3/092
+056: The Happy Hooker: My Own Story          | Xaviera Hollander        | 6/090
+057: Jaws                                    | Peter Benchley           | 6/020
+058: Love You Forever                        | Robert Munsch            | 6/066
+059: The Women's Room                        | Marilyn French           | 5/016
+060: Invalid Book Record ................... | ........................ | .....
+061: Adventures of Huckleberry Finn          | Mark Twain               | 3/114
+062: Invalid Book Record ................... | ........................ | .....
+063: Pride and Prejudice                     | Jane Austen              | 5/021
+064: Kon-Tiki: Across the Pacific in a Raft  | Thor Heyerdahl           | 4/027
+065: The Good Soldier Svejk                  | Jaroslav Haek            | 7/090
+066: Where the Wild Things Are               | Maurice Sendak           | 6/019
+067: The Power of Positive Thinking          | Norman Vincent Peale     | 2/008
+068: The Secret                              | Rhonda Byrne             | 2/040
+069: Fear of Flying                          | Erica Jong               | 5/012
+070: Dune                                    | Frank Herbert            | 3/083
+071: Charlie and the Chocolate Factory       | Roald Dahl               | 2/020
+072: The Naked Ape                           | Desmond Morris           | 5/036
+073: Invalid Book Record ................... | ........................ | .....
+074: Matilda                                 | Roald Dahl               | 6/055
+075: The Total Woman                         | Marabel Morgan           | 3/094
+076: Knowledge-value Revolution              | Taichi Sakaiya           | 6/027
+077: Problems in China's Socialist Economy   | Xue Muqiao               | 6/060
+078: What Color Is Your Parachute?           | Richard Nelson Bolles    | 5/130
+079: The Dukan Diet                          | Pierre Dukan             | 1/115
+080: Invalid Book Record ................... | ........................ | .....
+081: The Gospel According to Peanuts         | Robert L. Short          | 7/053
+082: Life of Pi                              | Yann Martel              | 2/037
+083: The Giver                               | Lois Lowry               | 5/064
+084: The Front Runner                        | Patricia Nell Warren     | 2/119
+085: Invalid Book Record ................... | ........................ | .....
+086: Fahrenheit 451                          | Ray Bradbury             | 2/108
+087: Angela's Ashes                          | Frank McCourt            | 1/078
+088: Invalid Book Record ................... | ........................ | .....
+089: Bridget Jones's Diary                   | Helen Fielding           | 5/075
+090: Harry Potter                            | J. K. Rowling            | 1/045
+091: Invalid Book Record ................... | ........................ | .....
+092: Perry Mason                             | Erle Stanley Gardner     | 7/005
+093: Berenstain Bears                        | Stan and Jan Berenstain  | 5/093
+094: Choose Your Own Adventure               | Various authors          | 4/008
+095: Diary of a Wimpy Kid                    | Jeff Kinney              | 2/041
+096: Invalid Book Record ................... | ........................ | .....
+097: Noddy                                   | Enid Blyton              | 4/097
+098: Invalid Book Record ................... | ........................ | .....
+099: Invalid Book Record ................... | ........................ | .....
+100: San-Antonio                             | Frdric Dard              | 5/073
+101: Robert Langdon                          | Dan Brown                | 4/019
+102: The Baby-sitters Club                   | Ann Martin               | 5/002
+103: Twilight                                | Stephenie Meyer          | 4/025
+104: Star Wars                               | Various authors          | 2/113
+105: Little Critter                          | Mercer Mayer             | 3/115
+106: Peter Rabbit                            | Beatrix Potter           | 5/036
+107: Fifty Shades                            | E. L. James              | 3/063
+108: American Girl                           | Various authors          | 5/020
+109: Invalid Book Record ................... | ........................ | .....
+110: Invalid Book Record ................... | ........................ | .....
+111: Clifford the Big Red Dog                | Norman Bridwell          | 5/108
+112: Frank Merriwell                         | Gilbert Patten           | 2/077
+113: Dirk Pitt                               | Clive Cussler            | 6/030
+114: Musashi                                 | Eiji Yoshikawa           | 5/081
+115: The Chronicles of Narnia                | C. S. Lewis              | 4/100
+116: Invalid Book Record ................... | ........................ | .....
+117: The Hunger Games trilogy                | Suzanne Collins          | 5/051
+118: James Bond                              | Ian Fleming              | 3/071
+119: Invalid Book Record ................... | ........................ | .....
+120: Invalid Book Record ................... | ........................ | .....
+121: A Song of Ice and Fire                  | George R. R. Martin      | 2/121
+122: Discworld                               | Terry Pratchett          | 6/039
+123: Nijntje                                 | Dick Bruna               | 6/007
+124: Alex Cross                              | James Patterson          | 2/096
+125: Invalid Book Record ................... | ........................ | .....
+126: Captain Underpants                      | Dav Pilkey               | 1/072
+127: Fear Street                             | R. L. Stine              | 3/078
+128: Pippi Longstocking                      | Astrid Lindgren          | 7/022
+129: The Vampire Chronicles                  | Anne Rice                | 3/030
+130: Invalid Book Record ................... | ........................ | .....
+131: OSS 117                                 | Jean Bruce               | 3/020
+132: Invalid Book Record ................... | ........................ | .....
+133: Magic Tree House series                 | Mary Pope Osborne        | 4/096
+134: Invalid Book Record ................... | ........................ | .....
+135: Invalid Book Record ................... | ........................ | .....
+136: Little House on the Prairie             | Laura Ingalls Wilder     | 3/114
+137: Jack Reacher                            | Lee Child                | 5/118
+138: Invalid Book Record ................... | ........................ | .....
+139: Where's Wally?                          | Martin Handford          | 7/015
+140: Men Are from Mars- Women Are from Venus | John Gray                | 3/020
+141: Invalid Book Record ................... | ........................ | .....
+142: Invalid Book Record ................... | ........................ | .....
+143: Tarzan                                  | Edgar Rice Burroughs     | 3/093
++++ Good Books ----------------------------------------------------------------
+Row: Book Title                              | Author(s)                | Loc
+---------------------------------------------+--------------------------+------
+001: Harry Potter and the Chamber of Secrets | J. K. Rowling            | 2/056
+002: Harry Potter and the Prisoner of Azkaban| J. K. Rowling            | 4/126
+003: Harry Potter and the Goblet of Fire     | J. K. Rowling            | 4/107
+004: Harry Potter and the Half-Blood Prince  | J. K. Rowling            | 4/061
+005: Harry Potter and the Deathly Hallows    | J. K. Rowling            | 6/080
+006: The Alchemist                           | Paulo Coelho             | 1/025
+007: The Catcher in the Rye                  | J. D. Salinger           | 3/121
+008: The Bridges of Madison County           | Robert James Waller      | 6/021
+009: Ben-Hur: A Tale of the Christ           | Lew Wallace              | 5/132
+010: You Can Heal Your Life                  | Louise Hay               | 1/016
+011: One Hundred Years of Solitude           | Gabriel Garca Mrquez     | 3/086
+012: Lolita                                  | Vladimir Nabokov         | 6/127
+013: Heidi                                   | Johanna Spyri            | 5/054
+014: Anne of Green Gables                    | Lucy Maud Montgomery     | 6/010
+015: Black Beauty                            | Anna Sewell              | 2/073
+016: The Name of the Rose                    | Umberto Eco              | 5/123
+017: The Eagle Has Landed                    | Jack Higgins             | 6/129
+018: Watership Down                          | Richard Adams            | 5/122
+019: The Hite Report                         | Shere Hite               | 3/126
+020: The Tale of Peter Rabbit                | Beatrix Potter           | 6/078
+021: Jonathan Livingston Seagull             | Richard Bach             | 6/102
+022: The Very Hungry Caterpillar             | Eric Carle               | 2/116
+023: A Message to Garcia                     | Elbert Hubbard           | 3/118
+024: To Kill a Mockingbird                   | Harper Lee               | 5/032
+025: Flowers in the Attic                    | V. C. Andrews            | 7/073
+026: Cosmos                                  | Carl Sagan               | 1/030
+027: Sophie's World                          | Jostein Gaarder          | 5/049
+028: Angels & Demons                         | Dan Brown                | 4/069
+029: Kane and Abel                           | Jeffrey Archer           | 4/121
+030: How the Steel Was Tempered              | Nikolai Ostrovsky        | 6/060
+031: War and Peace                           | Leo Tolstoy              | 3/064
+032: The Diary of Anne Frank                 | Anne Frank               | 4/099
+033: Your Erroneous Zones                    | Wayne Dyer               | 7/055
+034: The Thorn Birds                         | Colleen McCullough       | 2/020
+035: The Purpose Driven Life                 | Rick Warren              | 1/097
+036: The Kite Runner                         | Khaled Hosseini          | 6/007
+037: Valley of the Dolls                     | Jacqueline Susann        | 3/028
+038: The Great Gatsby                        | F. Scott Fitzgerald      | 1/033
+039: Gone with the Wind                      | Margaret Mitchell        | 2/005
+040: Rebecca                                 | Daphne du Maurier        | 6/064
+041: Nineteen Eighty-Four                    | George Orwell            | 1/020
+042: The Revolt of Mamie Stover              | William Bradford Huie    | 2/075
+043: The Girl with the Dragon Tattoo         | Stieg Larsson            | 2/044
+044: The Lost Symbol                         | Dan Brown                | 4/062
+045: The Hunger Games                        | Suzanne Collins          | 7/100
+046: James and the Giant Peach               | Roald Dahl               | 6/099
+047: Who Moved My Cheese?                    | Spencer Johnson          | 6/048
+048: A Brief History of Time                 | Stephen Hawking          | 4/086
+049: Lust for Life                           | Irving Stone             | 3/046
+050: The Wind in the Willows                 | Kenneth Grahame          | 3/092
+051: The Happy Hooker: My Own Story          | Xaviera Hollander        | 6/090
+052: Jaws                                    | Peter Benchley           | 6/020
+053: Love You Forever                        | Robert Munsch            | 6/066
+054: The Women's Room                        | Marilyn French           | 5/016
+055: Adventures of Huckleberry Finn          | Mark Twain               | 3/114
+056: Pride and Prejudice                     | Jane Austen              | 5/021
+057: Kon-Tiki: Across the Pacific in a Raft  | Thor Heyerdahl           | 4/027
+058: The Good Soldier Svejk                  | Jaroslav Haek            | 7/090
+059: Where the Wild Things Are               | Maurice Sendak           | 6/019
+060: The Power of Positive Thinking          | Norman Vincent Peale     | 2/008
+061: The Secret                              | Rhonda Byrne             | 2/040
+062: Fear of Flying                          | Erica Jong               | 5/012
+063: Dune                                    | Frank Herbert            | 3/083
+064: Charlie and the Chocolate Factory       | Roald Dahl               | 2/020
+065: The Naked Ape                           | Desmond Morris           | 5/036
+066: Matilda                                 | Roald Dahl               | 6/055
+067: The Total Woman                         | Marabel Morgan           | 3/094
+068: Knowledge-value Revolution              | Taichi Sakaiya           | 6/027
+069: Problems in China's Socialist Economy   | Xue Muqiao               | 6/060
+070: What Color Is Your Parachute?           | Richard Nelson Bolles    | 5/130
+071: The Dukan Diet                          | Pierre Dukan             | 1/115
+072: The Gospel According to Peanuts         | Robert L. Short          | 7/053
+073: Life of Pi                              | Yann Martel              | 2/037
+074: The Giver                               | Lois Lowry               | 5/064
+075: The Front Runner                        | Patricia Nell Warren     | 2/119
+076: Fahrenheit 451                          | Ray Bradbury             | 2/108
+077: Angela's Ashes                          | Frank McCourt            | 1/078
+078: Bridget Jones's Diary                   | Helen Fielding           | 5/075
+079: Harry Potter                            | J. K. Rowling            | 1/045
+080: Perry Mason                             | Erle Stanley Gardner     | 7/005
+081: Berenstain Bears                        | Stan and Jan Berenstain  | 5/093
+082: Choose Your Own Adventure               | Various authors          | 4/008
+083: Diary of a Wimpy Kid                    | Jeff Kinney              | 2/041
+084: Noddy                                   | Enid Blyton              | 4/097
+085: San-Antonio                             | Frdric Dard              | 5/073
+086: Robert Langdon                          | Dan Brown                | 4/019
+087: The Baby-sitters Club                   | Ann Martin               | 5/002
+088: Twilight                                | Stephenie Meyer          | 4/025
+089: Star Wars                               | Various authors          | 2/113
+090: Little Critter                          | Mercer Mayer             | 3/115
+091: Peter Rabbit                            | Beatrix Potter           | 5/036
+092: Fifty Shades                            | E. L. James              | 3/063
+093: American Girl                           | Various authors          | 5/020
+094: Clifford the Big Red Dog                | Norman Bridwell          | 5/108
+095: Frank Merriwell                         | Gilbert Patten           | 2/077
+096: Dirk Pitt                               | Clive Cussler            | 6/030
+097: Musashi                                 | Eiji Yoshikawa           | 5/081
+098: The Chronicles of Narnia                | C. S. Lewis              | 4/100
+099: The Hunger Games trilogy                | Suzanne Collins          | 5/051
+100: James Bond                              | Ian Fleming              | 3/071
+101: A Song of Ice and Fire                  | George R. R. Martin      | 2/121
+102: Discworld                               | Terry Pratchett          | 6/039
+103: Nijntje                                 | Dick Bruna               | 6/007
+104: Alex Cross                              | James Patterson          | 2/096
+105: Captain Underpants                      | Dav Pilkey               | 1/072
+106: Fear Street                             | R. L. Stine              | 3/078
+107: Pippi Longstocking                      | Astrid Lindgren          | 7/022
+108: The Vampire Chronicles                  | Anne Rice                | 3/030
+109: OSS 117                                 | Jean Bruce               | 3/020
+110: Magic Tree House series                 | Mary Pope Osborne        | 4/096
+111: Little House on the Prairie             | Laura Ingalls Wilder     | 3/114
+112: Jack Reacher                            | Lee Child                | 5/118
+113: Where's Wally?                          | Martin Handford          | 7/015
+114: Men Are from Mars- Women Are from Venus | John Gray                | 3/020
+115: Tarzan                                  | Edgar Rice Burroughs     | 3/093
+End Read and Rule of three ----------------------------------------------------
+==45463== 
+==45463== HEAP SUMMARY:
+==45463==     in use at exit: 0 bytes in 0 blocks
+==45463==   total heap usage: 1,161 allocs, 1,161 frees, 127,422 bytes allocated
+==45463== 
+==45463== All heap blocks were freed -- no leaks are possible
+==45463== 
+==45463== For lists of detected and suppressed errors, rerun with: -s
+==45463== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Mon 18 Oct 2021 09:50:05 AM EDT

@@ -1,0 +1,14 @@
+In line number 25 of your output:
+The output should be:
+Gandalf The Grey..................................(111) 222-0003
+^
+But your output is: 
+..................................Gandalf The Grey(111) 222-0003
+^
+
+Unmatched character details:
+The character in column 1 is supposed to be:
+  [G] ASCII code(71)
+but you printed
+  [.] ASCII code(46)
+

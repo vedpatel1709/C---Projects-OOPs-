@@ -1,0 +1,17 @@
+/*
+* Name: Patel Ved Rajendrakumar
+* Date: 25th november, 2021
+* SEction: NAA
+* ID: 149409203
+* Email: vrpatel33@myseneca.ca
+*/
+/*I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.*/
+
+In this workshop 9, I mainly learned how to use rule of three. To implement rule of three I created one constructor called contact with one parameter, One copy assignment operator, and on destructor.
+I implemented read function so that it can read the given data in contacts.txt and also implemented write function to print the given data. Write function was easy to create but Read was complicated for me. 
+It was complicated because in this we supposed to get data dynamically. I had used some cout functions like cout.fail() and cout.getline() to make it easy.
+In milestone 3, I learned about overloading operators, rule of three (Constructor, copy assignment operator, destructor), virtual functions and abstract classes. 
+I find this milestone quite easy because we already have implemented Date and Util module in previous milestone. Furthermore, given instruction were very straight to point and few part of code was also provided by professor.
+Overall, this workshop and milestone was great source for practice and learning.
+
+

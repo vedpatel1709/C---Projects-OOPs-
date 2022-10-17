@@ -1,0 +1,17 @@
+/*
+ Name: Ved Rajendrakumar Patel
+ Email: vrpatel33@myseneca.ca
+ section: OOP345 NDD
+ Date: 30th may,2022
+ Id: 149409203
+ */
+
+ /*I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.*/
+
+This workshop focused on creating and implementing class templates, as well as customizing a templated class variable for a specific type and customizing a templated class member function to process a certain type.
+According to the workshop's guidelines, I only implemented one.cpp module, "Pair.cpp." All of the other modules were built using header files that defined functions.
+I used the "add" function in the collection module to verify whether an element was added or not in this workshop.
+I also added a function to the set module that checks whether an element has been added or not. In addition, I override the "add" function to prevent the same element from being added many times.
+I also used the inheritance principle to create a new class called "Set" from a base class called "collection." The Set and Collection classes were both fully templated.
+This session goes over the templates we talked about last week.
+This workshop is terrific learning, and it's challenging for me as well.

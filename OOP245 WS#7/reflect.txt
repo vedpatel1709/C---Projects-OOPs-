@@ -1,0 +1,15 @@
+/*
+Name: Patel Ved Rajendrakumar
+Email: vrpatel33@myseneca.ca
+Student ID: 149409203
+Date:11th november,2021
+Section:OOP244 NAA
+*/
+
+/*I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.*/
+
+In this workshop, I had learned the concept of inheritance and the main concept of derived classes. Using this, I was able to use private members of other classes in one class.
+For example, I used private members of the VehicleBasic class in the Dumper class using the public keyword. To use the derived class, we need to identify the base class and derived class. In this workshop, the Dumper class is a derived class and VehicleBasic is the Base class. Derived classes contain not only their instance variables and functions but also variables and functions from the base class. When defining the most important derived classes, they use colons, keywords, and names of parent classes. For example, class Dumper: public VehicleBasic. 
+Moreover, I overloaded the input and output function to read the value from the class and to write the new value from the user in a given class. I used some printing function “cout<<setw(20)” it will occupy a given amount of space and can print the value at the beginning/ending and center. To use this function, I need to include “iomanip” at the beginning.
+Furthermore in mailestone 1, I learned to use member operators, helper functions, derived class,concept of inheritance and mainly learned how to combine all the concepts to get expected output.
+

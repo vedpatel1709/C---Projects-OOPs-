@@ -1,0 +1,14 @@
+In line number 114 of your output:
+The output should be:
+| Australia             | Melbourne       | Gamma                |   2021 |  700 | 200 |
+                                            ^
+But your output is: 
+| Australia             | Melbourne       | [None]               |   2020 |  500 | 300 |
+                                            ^
+
+Unmatched character details:
+The character in column 45 is supposed to be:
+  [G] ASCII code(71)
+but you printed
+  [[] ASCII code(91)
+

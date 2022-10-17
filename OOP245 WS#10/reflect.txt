@@ -1,0 +1,15 @@
+//Name: Patel Ved Rajendrakumar
+//ID: 149409203
+//Email: vrpatel33@myseneca.ca
+// Date: 2nd december, 2021
+//Section: NAA
+/*
+I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+*/
+While working on workshop 10, I learned a new concept called templates. In the beginning, it looked scary but it was easy to understand. templates allow us to create a function template whose functionality can be adapted to more than one type or class without repeating the entire code for each type.
+Using the template, we can save a lot of time as we do not need to create the same function with data types.
+In this workshop, I learned how to create templates with one parameter and with multiple parameters.
+In file main.cpp, we were supposed to write parameters of function using the concept of the template. That helped me a lot to understand how templates really work. 
+Overall, this workshop was the easiest and smallest of all time.
+While working on milestone 4, I found a lot of confusion. According to instructions, we can use the publication module from milestone 3 but when I used that same module my code didn't work. I needed to implement the publication module because I was using the publication class as a parent class of Book class.
+Overall, I learned about the rule of three in that milestone but I missed the submission by a small margin and submitted it late.s

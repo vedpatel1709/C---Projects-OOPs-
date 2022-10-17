@@ -1,0 +1,14 @@
+In line number 17 of your output:
+The output should be:
+1   Alice's Adventures In Wonderland                 122     15        
+^
+But your output is: 
+2   Alice's Adventures In Wonderland                 122     15        
+^
+
+Unmatched character details:
+The character in column 1 is supposed to be:
+  [1] ASCII code(49)
+but you printed
+  [2] ASCII code(50)
+

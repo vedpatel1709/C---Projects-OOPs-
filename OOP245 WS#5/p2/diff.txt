@@ -1,0 +1,14 @@
+In line number 133 of your output:
+The output should be:
+b1 has 5 passengers and b2 is 10 passengers therefore thier head counts are different
+                                                                            ^
+But your output is: 
+b1 has 5 passengers and b2 is 10 passengers therefore thier head counts are equal
+                                                                            ^
+
+Unmatched character details:
+The character in column 77 is supposed to be:
+  [d] ASCII code(100)
+but you printed
+  [e] ASCII code(101)
+

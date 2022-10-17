@@ -1,0 +1,14 @@
+// Patel Ved Rajendrakumar
+// section   : oop244 NAA
+// student ID: 149409203
+// vrpatel33@myseneca.ca
+// workshop 2 part 2
+
+I learned many new things in this workshop-2.
+In part-1, I wrote the functions which will find out the winner among 4 fighters who have more power by comparing each fighter.
+Moreover, I learned how can we allocate dynamic memory when the size of an existing array is increased. I used that technique to add new fighters into an existing array of fighters.
+I also learned how can we deallocate the dynamic memory when the size of an existing array is decreased. I found this concept quite confusing because I have never seen such a thing before in c language.
+I found workshop-2 part-2 very easy. I completed it within 30 minutes without error or bug. I learned some new “cin” statements of C++.
+Those statements are really time-saving especially “cin().ignore” and “cin().getline”.
+
+Overall, I learned many new things from this workshop and this workshop was exciting for me. 

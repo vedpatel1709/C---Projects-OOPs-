@@ -1,0 +1,11 @@
+/*
+Name = Patel Ved Rajendrakumar
+Student_ID = 149409203
+Section = OOP244 NDD
+Workshop 6 part 1
+Date: 10th october, 2021
+*/
+/*I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.*/
+
+I learned many new things in this workshop. Mainly i undertood why we use destructors. part 1 was really fun to me and i really enjoyed it but part 2 was reaally confusing to me. While compiling part 2, i got almost 30-40 error and i fixed those using debugging technique. 
+Moreover, in this workshop i learned how to use copy constuctor and rule of Three states. When i was submitting the workshop part 2 i got memory leak but i fixed that leak by deleting the values before object goes out of scope. This memory leak happen because i forgot touse destructor after using constructors.
